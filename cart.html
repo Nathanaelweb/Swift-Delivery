@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart | Swift Delivery</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/cart.js"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <div class="logo">Swift Delivery</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+               
+                <li><a href="tracking.html">Track Order</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="cart.html">Cart <span id="cart-count">0</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Cart Section -->
+    <section class="cart-container">
+        <h2>Shopping Cart</h2>
+        <div id="cart-items"></div>
+        <h3>Total: $<span id="total-price">0.00</span></h3>
+        <button id="checkout-btn">Checkout</button>
+        <button id="clear-cart">Clear Cart</button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Swift Countries and Delivery. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
