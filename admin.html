@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard | Swift Delivery</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/admin.js"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <div class="logo">Admin Dashboard</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="admin.html">Admin Panel</a></li>
+                <li><button id="logout-btn">Logout</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Admin Orders Section -->
+    <section class="admin-container">
+        <h2>Manage Orders</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Tracking ID</th>
+                    <th>Customer Name</th>
+                    <th>Order Status</th>
+                    <th>Update Status</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody id="order-list">
+                <!-- Orders will be inserted here -->
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Swift Countries and Delivery. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
