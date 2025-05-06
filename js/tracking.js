@@ -27,17 +27,18 @@ document.addEventListener('DOMContentLoaded', function () {
         
         },
         
-        "PKG967890": { 
+        "PKG637898": { 
             status: "PENDING", 
             createdAt: Date.now(), 
-            receiver: "Mary Grace T Angel", 
-            FinalPackageLocation:"Canada",
+            receiver: "FANI", 
+            FinalPackageLocation:"INDONESIA",
             ReciverEmail:"____",
-            ReceiverPhone: "+1 873 456 2988",
-            packageFee: "$2,000", 
-            sender: "James Carlos",
-            SenderCountry: "Dubai",
-            Shippmenttime:"13:00pm"
+            ReceiverPhone: "+62 851 378 05516",
+            packageFee: "2,000,000RP", 
+            sender: "JUN SEO",
+            SenderCountry: "SOUTH KOREA",
+            Shippmenttime:"10:00am",
+            Shippmentdate:"7 May 2025"
         }
     };
 
@@ -75,15 +76,17 @@ document.addEventListener('DOMContentLoaded', function () {
             // Display full order details
             trackingResult.innerHTML = `
                 <h3>Package Details</h3>
+                <h3>WELCOME FANI </h3>
                 <p><strong>Status:</strong> ${order.status}</p>
                 <p><strong>Receiver:</strong> ${order.receiver}</p>
                 <p><strong>Final Package Location:</strong> ${order.FinalPackageLocation}</p>
                 <p><strong>Reciver Email:</strong> ${order.ReciverEmail}</p>
                 <p><strong>Receiver Phone:</strong> ${order.ReceiverPhone}</p>
-                <p><strong>Package Fee:</strong> ${order.packageFee}</p>
+                <p><strong>Package Delivery Fee:</strong> ${order.packageFee}</p>
                 <p><strong>Sender:</strong> ${order.sender}</p>
                 <p><strong>Sender Country:</strong> ${order.SenderCountry}</p>
-                <p><strong>Shippment time:</strong> ${order.Shippmenttime}</p>
+                <p><strong>Shippment Time:</strong> ${order.Shippmenttime}</p>
+                <p><strong>Shippment Date:</strong> ${order.Shippmentdate}</p>
                 
             `;
         } else {
