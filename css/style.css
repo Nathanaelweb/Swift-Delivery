@@ -921,3 +921,9 @@ p {
 .draggable {
     cursor: grab;
 }
+h3{
+    color: #000000;
+    font-style: italic;
+    font-weight: bold;
+    padding: 5px 5px;
+}
